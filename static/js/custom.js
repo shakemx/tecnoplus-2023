@@ -42,12 +42,12 @@ window.onload = function() {
               event.preventDefault();
               try {
                 var template_params = {
-                  fname: document.getElementById("nombre_contacto").value,
-                  mail: document.getElementById("correo_contacto").value,
+                  fname: document.getElementById("fname").value,
+                  mail: document.getElementById("mail").value,
                   phone:
-                    document.getElementById("telefono_contacto").value,                  
+                    document.getElementById("phone").value,                  
                   subject:
-                    document.getElementById("mensaje_contacto").value,
+                    document.getElementById("subject").value,
                   'g-recaptcha-response': '6Lcf0BAmAAAAAPH9SeJS50g_K-siED_ljH0kVjXU',        
                 };
                 emailjs.send(
