@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://tecnoplusreparaciones.com/</loc>
+
+      <lastmod>2023-01-01</lastmod>
+
+      <changefreq>daily</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://tecnoplusreparaciones.com/servicios.html</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+     <loc>https://tecnoplusreparaciones.com/preguntas_frecuentes.html</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+     <loc>https://tecnoplusreparaciones.com/testimonios.html</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+     <loc>https://tecnoplusreparaciones.com/contacto.html</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+
+</urlset>
