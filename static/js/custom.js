@@ -42,11 +42,11 @@ window.onload = function() {
               event.preventDefault();
               try {
                 var template_params = {
-                  nombre_contacto: document.getElementById("nombre_contacto").value,
-                  correo_contacto: document.getElementById("correo_contacto").value,
-                  telefono_contacto:
+                  fname: document.getElementById("nombre_contacto").value,
+                  mail: document.getElementById("correo_contacto").value,
+                  phone:
                     document.getElementById("telefono_contacto").value,                  
-                  mensaje_contacto:
+                  subject:
                     document.getElementById("mensaje_contacto").value,
                   'g-recaptcha-response': '6Lcf0BAmAAAAAPH9SeJS50g_K-siED_ljH0kVjXU',        
                 };
@@ -66,10 +66,10 @@ window.onload = function() {
                 }, 3000);
                 console.log(error);
               }
-              nombre_contacto.value = "";
-              correo_contacto.value = "";
-              telefono_contacto.value = "";
-              mensaje_contacto.value = "";
+              nfname.value = "";
+              mail.value = "";
+              phone.value = "";
+              subject.value = "";
               grecaptcha.reset();
             },
             false
